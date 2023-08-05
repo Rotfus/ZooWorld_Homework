@@ -1,0 +1,23 @@
+.Style{
+    
+    background-color: black;
+    position: relative;
+
+}
+
+.Style::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.4;
+    background-image: url(wallpaperflare.com_wallpaper.jpg);
+    background-size: cover;
+}
+
+.main{
+    color: white;
+    position: relative;
+}
